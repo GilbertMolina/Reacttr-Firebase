@@ -1,0 +1,34 @@
+.root {
+  margin: 0 1em;
+  text-align: center;
+}
+
+.text {
+  color: #888;
+}
+
+.buttonGitHub {
+  display: inline-flex;
+  align-items: center;
+  border: #333;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  background-color: #333;
+  color: #fff;
+  margin-right: 0.4em;
+}
+
+.buttonFacebook {
+  display: inline-flex;
+  align-items: center;
+  border: #4267b2;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  background-color: #4267b2;
+  color: #fff;
+  margin-right: 0.4em;
+}
+
+.icon {
+  margin-right: 0.4em;
+}

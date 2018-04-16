@@ -1,0 +1,35 @@
+.form {
+  margin: 0px 42px 0px 10px !important;
+}
+
+.text {
+  border-radius: 5px !important;
+  border: 1px solid #ddd !important;
+  width: 100% !important;
+  height: 5em !important;
+  margin: 0 auto !important;
+  padding: 1em !important;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttons > button {
+  border-radius: 5px;
+  padding: 0.5em 0.75em;
+  margin: 0.5em 0.25em 0em 0em;
+}
+
+.close {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.send {
+  background-color: #2d84cc;
+  border: 1px solid #226aa6;
+  color: #fff;
+  margin-right: -33px !important;
+}
