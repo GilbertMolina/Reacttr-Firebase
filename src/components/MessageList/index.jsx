@@ -21,10 +21,6 @@ function MessageList ({ messages, onRetweet, onFavorite, onReplyTweet }) {
     )
 }
 
-// function orderArrayByDate (messages) {
-//     messages.sort((a, b) => { return b.date - a.date });
-// }
-
 MessageList.propTypes = {
     messages: PropTypes.arrayOf(PropTypes.object).isRequired,
     onRetweet: PropTypes.func.isRequired,

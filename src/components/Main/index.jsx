@@ -11,6 +11,9 @@ class Main extends Component {
         super(props)
 
         this.state = {
+            user: [],
+
+            // The structure of the user object looks like this
             //     user: {
             //         displayName: this.props.user.displayName,
             //         email: this.props.user.email,
@@ -19,11 +22,12 @@ class Main extends Component {
             //         retweets: [''],
             //         favorites: ['']
             //     },
-            user: [],
+
             openText: false,
             userNameToReply: '',
             messages: []
 
+            // The structure of the messages object looks like this
             // messages: [
             //     {
             //         id: uuid.v4(),
@@ -88,6 +92,7 @@ class Main extends Component {
 
     handleOpenText (event) {
         event.preventDefault()
+        
         this.setState({
             openText: true 
         })

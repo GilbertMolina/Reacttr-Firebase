@@ -12,18 +12,17 @@ import Login from '../Login'
 class App extends Component {
     constructor () {
         super()
-        
-        // this.state = {
-        //     user: {
-        //         displayName: 'Gilbert Molina',
-        //         username: 'gmolinac',
-        //         email: 'gmolinac@outlook.com',
-        //         photoURL: 'https://avatars1.githubusercontent.com/u/5861707?s=400&u=9816344e8bfa441b15563f516475dbe7d643710a&v=4'
-        //     }
-        // }
 
         this.state = {
             user: null
+
+            // The structure of the user object looks like this
+            // user: {
+            //         displayName: 'Gilbert Molina',
+            //         username: 'gmolinac',
+            //         email: 'gmolinac@outlook.com',
+            //         photoURL: 'https://avatars1.githubusercontent.com/u/5861707?s=400&u=9816344e8bfa441b15563f516475dbe7d643710a&v=4'
+            //     }
         }
 
         this.handleOnAuthGitHub = this.handleOnAuthGitHub.bind(this)
